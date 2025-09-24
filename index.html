@@ -3,42 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio — Leandro Toledo</title>
+  <title>Portfólio - Leandro Toledo</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Cabeçalho -->
   <header>
     <h1>Leandro Toledo</h1>
-    <p>Desenvolvedor Web / Projetos</p>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
   </header>
 
-  <main>
-    <h2>Meus Projetos</h2>
-    <div class="projects">
+  <!-- Sobre mim -->
+  <section id="sobre" class="container">
+    <h2>Sobre mim</h2>
+    <p>Sou desenvolvedor em início de carreira, focado em React Native, APIs e projetos web. 
+      Já desenvolvi aplicativos como um <strong>App de Previsão do Tempo</strong> e um 
+      <strong>App de Tarefas</strong>. 
+      Busco sempre aprender novas tecnologias e melhorar minhas habilidades para entregar 
+      soluções criativas e funcionais.</p>
+  </section>
 
-      <!-- Weather App -->
-      <div class="project-card">
-        <img src="imagens/weather-app.png" alt="Weather App">
-        <h3>Weather App</h3>
-        <p>Aplicativo de previsão do tempo com imagens de clima, ícones e animação.</p>
-        <a href="https://Le-Toledo.github.io/Weather-App/" target="_blank">Ver Online</a>
-        <a href="https://github.com/Le-Toledo/Weather-App" target="_blank">Ver Código</a>
-      </div>
+  <!-- Projetos -->
+<section id="projetos" class="container">
+  <h2>Projetos</h2>
+  <div class="projects">
 
-      <!-- App de Tarefas -->
-      <div class="project-card">
-        <img src="imagens/todo-app.png" alt="App de Tarefas">
-        <h3>App de Tarefas</h3>
-        <p>Aplicativo de lista de tarefas com CRUD, armazenamento local e responsivo.</p>
-        <a href="https://Le-Toledo.github.io/Todo-App/" target="_blank">Ver Online</a>
-        <a href="https://github.com/Le-Toledo/Todo-App" target="_blank">Ver Código</a>
-      </div>
-
+    <!-- Weather App -->
+    <div class="project-card featured">
+      <h3>Weather App</h3>
+      <p>Aplicativo de previsão do tempo com imagens de clima, ícones e animação.</p>
+      <a href="https://Le-Toledo.github.io/Weather-App/" target="_blank">Ver Online</a>
+      <a href="https://github.com/Le-Toledo/Weather-App" target="_blank">Ver Código</a>
     </div>
-  </main>
 
+    <!-- App de Tarefas -->
+    <div class="project-card">
+      <h3>App de Tarefas</h3>
+      <p>Aplicativo de lista de tarefas criado para praticar React Native.</p>
+      <div class="project-images">
+        <a href="imagens/app-tarefas/todo1.png" target="_blank">Imagem 1</a>
+        <a href="imagens/app-tarefas/todo2.png" target="_blank">Imagem 2</a>
+        <a href="imagens/app-tarefas/todo3.png" target="_blank">Imagem 3</a>
+        <a href="imagens/app-tarefas/todo4.png" target="_blank">Imagem 4</a>
+      </div>
+      <a href="https://github.com/Le-Toledo/App-de-tarefas" target="_blank">Ver Código</a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Contato -->
+  <section id="contato" class="container">
+    <h2>Contato</h2>
+    <p>Você pode entrar em contato comigo pelas redes abaixo:</p>
+    <p>
+      <a href="https://github.com/Le-Toledo" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/leandro-toledo88/" target="_blank">LinkedIn</a> |
+      <a href="https://www.workana.com/freelancer/7cbfa39391641f3573ef5a95ac9bcefb" target="_blank">Workana</a>
+    </p>
+  </section>
+
+  <!-- Rodapé -->
   <footer>
-    Feito por <strong>Leandro Toledo</strong>
+    <p>© 2025 - Leandro Toledo</p>
   </footer>
+
 </body>
 </html>
